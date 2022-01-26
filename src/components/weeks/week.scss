@@ -1,0 +1,25 @@
+.weekContentWrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-bg);
+    color: #FFFFFF;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 95%;
+        margin: 200px 40px;
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .green {
+        color: var(--green);
+    }
+}
