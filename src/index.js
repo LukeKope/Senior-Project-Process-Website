@@ -6,14 +6,18 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import Week1 from "./components/weeks/week1/week1";
+import Week2 from "./components/weeks/week2/week2";
 import Sidebar from "./components/sidebar/sidebar";
+import About from "./components/about/about";
 
 ReactDOM.render(
   <BrowserRouter>
   <Sidebar></Sidebar>
      <Routes>
-        <Route path="/" element={<App />} />               
+        <Route path="/" element={<App />} />       
+        <Route path="about" element={<About />} />          
         <Route path="week1" element={<Week1 />} />  
+        <Route path="week2" element={<Week2 />} />  
       </Routes>
   </BrowserRouter>,
   document.getElementById("root")
