@@ -12,13 +12,15 @@ import About from "./components/about/about";
 
 ReactDOM.render(
   <BrowserRouter>
-  <Sidebar></Sidebar>
-     <Routes>
-        <Route path="/" element={<App />} />       
-        <Route path="about" element={<About />} />          
-        <Route path="week1" element={<Week1 />} />  
-        <Route path="week2" element={<Week2 />} />  
+    <div className="container">
+      <Sidebar></Sidebar>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="about" element={<About />} />
+        <Route path="week1" element={<Week1 />} />
+        <Route path="week2" element={<Week2 />} />
       </Routes>
+    </div>
   </BrowserRouter>,
   document.getElementById("root")
 );
