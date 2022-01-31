@@ -26,8 +26,8 @@ function Week1() {
             <li> [x] Read Do The Work</li>
             <li> [x] Write response to Do The Work</li>
             <li> [x] Setup dedicated process website</li>
-            <li> [ ] Have about page, document project</li>
-            <li> [ ] Document process and project on project website</li>
+            <li> [x] Have about page, document project</li>
+            <li> [x] Document process and project on project website</li>
             {/* <li> - [ ] Do Brainstorming exercises</li> */}
           </ol>
         </div>
