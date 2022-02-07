@@ -1,4 +1,10 @@
 import "../week.scss";
+import Moodboard from "../../../assets/Mockups/moodboard.PNG";
+import PaceInspiration from "../../../assets/Mockups/pace-inspiration.PNG";
+import Pace from "../../../assets/Mockups/Pace.PNG";
+import PlaylistCreator from "../../../assets/Mockups/playlist-creator-v1.PNG";
+import PlaylistCreatorv2 from "../../../assets/Mockups/playlist-v2.PNG";
+import SpotifyAcct from "../../../assets/spotify-dev-account.PNG";
 
 function Week2() {
   return (
@@ -20,7 +26,7 @@ function Week2() {
               [x] Read 1st “Middle” chapter to “Now We’re Rolling” in Do the
               Work
             </li>
-            <li> [ ] Research and design your project </li>
+            <li> [x] Research and design your project </li>
           </ol>
         </div>
 
@@ -96,8 +102,45 @@ function Week2() {
 
         <div className="section">
           <h2 className="title green">Ideation & Mockups</h2>
-          <p>Images coming soon...</p>
+          <h3>What I did this week</h3>
+          <ol>
+            <li>Read Spotify API docs and set up developer account</li>
+            <li>Made mockups of the website UI</li>
+            <li>Looked into other apps that do something similar</li>
+            <li>
+              Read up on React docs to refamiliarize myself with the framework
+            </li>
+            <li>
+              Potential other project idea if this one doesn’t pan out (Codepen
+              HTML/CSS practice)
+            </li>
+          </ol>
+
+          <h3>Spotify Developer Account</h3>
+          <img src={SpotifyAcct}></img>
+
+          <h2 className="title green">Mockups</h2>
+          <h3>Moodboard</h3>
+          <img src={Moodboard}></img>
+          <h3>Pace</h3>
+          <p>
+            This screen was put together to have the user be able to quickly
+            view the trajectory of their whole run and what songs are being
+            played when
+          </p>
+          <img src={Pace}></img>
+          <img src={PaceInspiration}></img>
         </div>
+
+        <h3>Playlist creation</h3>
+        <p>
+          I'm currently trying to figure out the best way to go about creating
+          the playlist creation UI. I want it to be modular in the sense that
+          you can create different sections of different paces so that you can
+          do 10 minutes at 5mph, 20 minutes at 6mph, etc.
+        </p>
+        <img src={PlaylistCreator}></img>
+        <img src={PlaylistCreatorv2}></img>
       </div>
     </div>
   );
