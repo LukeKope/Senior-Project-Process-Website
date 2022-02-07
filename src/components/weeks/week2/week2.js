@@ -117,19 +117,19 @@ function Week2() {
           </ol>
 
           <h3>Spotify Developer Account</h3>
-          <img src={SpotifyAcct}></img>
+          <img src={SpotifyAcct} alt="Spotify for developers web page"></img>
 
           <h2 className="title green">Mockups</h2>
           <h3>Moodboard</h3>
-          <img src={Moodboard}></img>
+          <img src={Moodboard} alt="Moodboard for my website"></img>
           <h3>Pace</h3>
           <p>
             This screen was put together to have the user be able to quickly
             view the trajectory of their whole run and what songs are being
             played when
           </p>
-          <img src={Pace}></img>
-          <img src={PaceInspiration}></img>
+          <img src={Pace} alt="Mockup for the pace page of my website"></img>
+          <img src={PaceInspiration} alt="Inspiration for the pace page of the website"></img>
         </div>
 
         <h3>Playlist creation</h3>
@@ -139,8 +139,8 @@ function Week2() {
           you can create different sections of different paces so that you can
           do 10 minutes at 5mph, 20 minutes at 6mph, etc.
         </p>
-        <img src={PlaylistCreator}></img>
-        <img src={PlaylistCreatorv2}></img>
+        <img src={PlaylistCreator} alt="Playlist creator UI"></img>
+        <img src={PlaylistCreatorv2} alt="Second iteration fo playlist crator UI"></img>
       </div>
     </div>
   );
