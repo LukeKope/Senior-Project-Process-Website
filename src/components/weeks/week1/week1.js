@@ -12,7 +12,7 @@ function Week1() {
           created this website to track my progress along the way!
         </p>
 
-        <div class="section">
+        <div className="section">
           <h2>This week's deliverables</h2>
           <ol>
             <li> [x] Join slack channel</li>
@@ -33,7 +33,7 @@ function Week1() {
         </div>
 
         <div className="section">
-          <h2 class="title underline green">Epicenter Design Response</h2>
+          <h2 className="title underline green">Epicenter Design Response</h2>
           <p className="italic">
             The point of assigning this reading is not about building websites.
             How can you translate this reading to your medium? What is the
