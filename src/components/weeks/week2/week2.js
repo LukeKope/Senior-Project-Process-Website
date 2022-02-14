@@ -115,10 +115,24 @@ function Week2() {
               HTML/CSS practice)
             </li>
           </ol>
+          <h3>Potential New Project Idea</h3>
+          <p>
+            Potential other idea, I know how I like to practice my HTML/CSS
+            skills by recreating different UI’s right? Well, it’s always
+            annoying not actually having the assets to use so I can recreate it
+            to a T, and having to find the colors they use and everything can be
+            frustrating. Basically, it’d be like dribble. You can find a
+            bunch of UI designs and browse them, then select one you want to
+            replicate for practice. - What if, I created a Codepen like place
+            where users had to replicate and existing UI? I’d give them all the
+            images they needed, the colors, and they could use it to practice
+            their HTML/CSS skills easily and just focus on the important stuff -
+            practicing HTML/CSS positioning. Potentially adding in some JS stuff
+            too.
+          </p>
 
           <h3>Spotify Developer Account</h3>
           <img src={SpotifyAcct} alt="Spotify for developers web page"></img>
-
           <h2 className="title green">Mockups</h2>
           <h3>Moodboard</h3>
           <img src={Moodboard} alt="Moodboard for my website"></img>
@@ -129,7 +143,10 @@ function Week2() {
             played when
           </p>
           <img src={Pace} alt="Mockup for the pace page of my website"></img>
-          <img src={PaceInspiration} alt="Inspiration for the pace page of the website"></img>
+          <img
+            src={PaceInspiration}
+            alt="Inspiration for the pace page of the website"
+          ></img>
         </div>
 
         <h3>Playlist creation</h3>
@@ -140,7 +157,10 @@ function Week2() {
           do 10 minutes at 5mph, 20 minutes at 6mph, etc.
         </p>
         <img src={PlaylistCreator} alt="Playlist creator UI"></img>
-        <img src={PlaylistCreatorv2} alt="Second iteration fo playlist crator UI"></img>
+        <img
+          src={PlaylistCreatorv2}
+          alt="Second iteration for playlist crator UI"
+        ></img>
       </div>
     </div>
   );

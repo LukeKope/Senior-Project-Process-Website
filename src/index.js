@@ -9,6 +9,7 @@ import Week1 from "./components/weeks/week1/week1";
 import Week2 from "./components/weeks/week2/week2";
 import Sidebar from "./components/sidebar/sidebar";
 import About from "./components/about/about";
+import Week3 from "./components/weeks/week3/week3";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="about" element={<About />} />
         <Route path="week1" element={<Week1 />} />
         <Route path="week2" element={<Week2 />} />
+        <Route path="week3" element={<Week3 />} />
       </Routes>
     </div>
   </BrowserRouter>,
