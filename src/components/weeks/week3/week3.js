@@ -34,6 +34,23 @@ function Week3() {
           alt="Third iteration for playlist crator UI"
         ></img>
       </div>
+
+
+
+    <h2>Next steps!</h2>
+    <p>Now that I have some more solid high fidelity wireframes, the next step is to get
+      an MVP working to prove that this idea actually works in code. I need to be able to
+      do the following:
+
+      <ol>
+        <li>[] Authenticate with Spotify API</li>
+        <li>[] Get user playlist info</li>
+        <li>[] Take user input on preferred pace and sort songs that match that desired BPM</li>
+        <li>[] Get x amount of songs that fit the time interval they want</li>
+        <li>[] Maybe let them input distance instead of total time?</li>
+      </ol>
+    </p>
+
     </div>
   );
 }
