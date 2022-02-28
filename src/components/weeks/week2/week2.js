@@ -10,7 +10,7 @@ function Week2() {
   return (
     <div className="weekContentWrapper">
       <div className="content">
-        <h1 className="title">1/31/22 | Week 2 | Ideation</h1>
+        <h1 className="title">2/07/22 | Week 2 | Ideation</h1>
 
         <p className="green">
           This weeks focus was to take the my idea and start to flesh it out.

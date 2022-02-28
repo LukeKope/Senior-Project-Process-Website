@@ -5,7 +5,7 @@ function Week1() {
     <div className="weekContentWrapper">
       <div className="content">
         <h1 className="title">
-          1/24/22 | Week 1 | Brainstorming, Initial Readings
+          1/31/22 | Week 1 | Brainstorming, Initial Readings
         </h1>
         <p className="green">
           This week was all about coming up with ideas for the project. I also

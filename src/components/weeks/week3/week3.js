@@ -8,7 +8,7 @@ function Week3() {
     <div className="weekContentWrapper">
       <div className="content">
         <h1 className="title">
-          2/07/22 | Week 3 | Mockups, Mockups, and more Mockups!
+          2/14/22 | Week 3 | Mockups, Mockups, and more Mockups!
         </h1>
 
         <p>
