@@ -137,9 +137,9 @@ function Week5() {
         <br></br>
 
         <h2 className="green">Project Proposal & Presentation</h2>
-        <p>I also did a bit of work on my project proposal document.</p>
+        <p>I also did a bit of work on my project plan presentation.</p>
         <a
-          href="https://docs.google.com/document/d/1YotMicFJrBB05zfsFgASn5tCPTw-WYkIPQjws_rhFmQ/edit?usp=sharing"
+          href="https://docs.google.com/presentation/d/1Ya5Mqjv39bMVGezueM5yGQ8qZ65hw5LVonVM6j3H1ko/edit?usp=sharing"
           className="green"
         >
           Here is a link to the google doc
