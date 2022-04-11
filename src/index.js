@@ -15,6 +15,7 @@ import Week5 from "./components/weeks/week5/week5";
 import Week6 from "./components/weeks/week6/week6";
 import Week7 from "./components/weeks/week7/week7";
 import Week8 from "./components/weeks/week8/week8";
+import Week9 from "./components/weeks/week9/week9";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -31,6 +32,7 @@ ReactDOM.render(
         <Route path="week6" element={<Week6 />} />
         <Route path="week7" element={<Week7 />} />
         <Route path="week8" element={<Week8 />} />
+        <Route path="week9" element={<Week9 />} />
       </Routes>
     </div>
   </BrowserRouter>,
