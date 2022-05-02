@@ -5,10 +5,10 @@ import App from "./components/homePage/homePage";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
-import Week1 from "./components/weeks/week1/week1";
-import Week2 from "./components/weeks/week2/week2";
 import Sidebar from "./components/sidebar/sidebar";
 import About from "./components/about/about";
+import Week1 from "./components/weeks/week1/week1";
+import Week2 from "./components/weeks/week2/week2";
 import Week3 from "./components/weeks/week3/week3";
 import Week4 from "./components/weeks/week4/week4";
 import Week5 from "./components/weeks/week5/week5";
@@ -17,6 +17,8 @@ import Week7 from "./components/weeks/week7/week7";
 import Week8 from "./components/weeks/week8/week8";
 import Week9 from "./components/weeks/week9/week9";
 import Week10 from "./components/weeks/week10/week10";
+import Week11 from "./components/weeks/week11/week11";
+import Week12 from "./components/weeks/week12/week12";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -35,6 +37,8 @@ ReactDOM.render(
         <Route path="week8" element={<Week8 />} />
         <Route path="week9" element={<Week9 />} />
         <Route path="week10" element={<Week10 />} />
+        <Route path="week11" element={<Week11 />} />
+        <Route path="week12" element={<Week12 />} />
       </Routes>
     </div>
   </BrowserRouter>,
